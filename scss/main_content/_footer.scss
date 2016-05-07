@@ -1,0 +1,109 @@
+/*  FOOTER   */
+
+.footer {
+  border-top: 1px solid #E7E7E7;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.student-name {
+  font-weight: bold;
+  float: left;
+  padding: 30px 0px;
+
+  @media #{$brk-tablet} {
+    font-size: 0.8em;
+  }
+
+  @media #{$brk-desktop} {
+    font-size: 0.8em;
+  }
+}
+
+.nav {
+  @media #{$brk-tablet} {
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-size: 0.8em;
+  }
+
+  @media #{$brk-desktop} {
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-size: 0.8em;
+  }
+}
+
+.nav a {
+  @media #{$brk-tablet} {
+    font-weight: 700;
+    padding: 10px;
+    color: $tundora-grey;
+  }
+
+  @media #{$brk-desktop} {
+    font-weight: 700;
+    padding: 10px;
+    color: $tundora-grey;
+  }
+}
+
+.footer-nav li {
+    @media #{$brk-tablet} {
+      background: $light-grey;
+    }
+
+    @media #{$brk-desktop} {
+      background: $light-grey;
+    }
+  }
+
+/*** BACK TO TOP ***/
+
+.top {
+  @include text(12px);
+  text-transform: uppercase;
+  float: right;
+  padding: 30px 0px;
+
+  @media #{$brk-tablet} {
+    display: none;
+  }
+  
+  @media #{$brk-desktop} {
+    display: none;
+  }
+
+}
+
+.top a {
+  font-weight: bold;
+}
+
+/** do not display footer nav in mobile **/
+.footer-nav {
+  display: none;
+
+  @media #{$brk-tablet} {
+    display: block;
+    float: right;
+    margin-right: 20px;
+    padding: 30px 0;
+  }
+
+  @media #{$brk-desktop} {
+    display: block;
+    float: right;
+    margin-right: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}

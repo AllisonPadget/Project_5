@@ -1,0 +1,27 @@
+/* Global Layout Set-up */
+
+body {
+  margin: 0 auto;
+  font-family: $stack-open-sans;
+  color: $tundora-grey;
+  background: linear-gradient(to top, #000 -70%, $alabaster, $linen-pink);
+  @extend %centered;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+a {
+  text-decoration: none;
+  color: $color-link-default;
+  font-weight: 400;
+
+  &:hover {
+  text-decoration: underline;
+  }
+}
+

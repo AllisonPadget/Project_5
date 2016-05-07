@@ -1,0 +1,16 @@
+
+/* HEADER */
+
+.header {
+  @extend %centered;
+
+  @media #{$brk-desktop} {
+  	float: left;
+    padding-left: 50px;
+  }
+}
+
+.header h1 {
+	@include text(1.5em);
+	margin: 20px 0px 10px 0px;
+}

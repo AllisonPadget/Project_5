@@ -1,0 +1,56 @@
+
+/*  CONTACT   */
+
+.contact {
+  @extend %clearfix;
+
+  @media #{$brk-tablet} {
+    margin: 0;
+    padding: 0;
+    font-size: 1.2em;
+    text-align: center;
+    margin: 0 75px;
+  }
+}
+
+.contact h1 {
+  @include text(1em);
+  @extend %centered;
+  text-transform: uppercase;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+.contact p {
+  @extend %centered;
+  font-weight: 300;
+  color: $grey;
+  padding: 5px 10px;
+
+  @media #{$brk-desktop} {
+    padding: 0 175px;
+  }
+}
+
+.contact-info {
+  list-style: none;
+  @extend %centered;
+  padding-left: 0px;
+  padding-bottom: 50px;
+  color: $grey;
+}
+
+.contact-info li {
+  padding-top: 10px;
+  font-weight: 300;
+}
+
+.contact-info a {
+  font-weight: 400;
+  color: $grey;
+  font-weight: 700;
+}
+
+.contact-info span {
+  margin-right: 15px;
+}

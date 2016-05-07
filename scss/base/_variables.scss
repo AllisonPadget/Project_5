@@ -1,0 +1,36 @@
+/* Descriptive color variables */
+
+$white          : #fff;
+$black			: #000;
+
+$linen-pink		: #fdf6f6;
+$alabaster		: #fafafa;
+$light-grey		: #D2D2D2;
+$tundora-grey	: #4A4A4A;
+$grey			: #7F7F7F;
+
+
+/** Functional color variables **/
+
+$color-text-light : $light-grey;
+$color-text-base  : $grey;
+$color-text-dark  : $tundora-grey;
+
+$color-link-default : $black;
+
+$color-nav-default : $tundora-grey;
+$color-nav-hover   : $grey;
+
+$color-body         : $white;
+
+
+/** FONT Stacks **/
+
+$stack-sans-serif	: sans-serif;
+$stack-open-sans	: "Open Sans", $stack-sans-serif;
+
+
+/** Media Query breakpoints **/
+
+$brk-tablet		: '(min-width: 768px)';
+$brk-desktop	: '(min-width: 1024px)';

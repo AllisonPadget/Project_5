@@ -1,0 +1,107 @@
+
+
+/* MAIN SECTION */
+
+section {
+  background: $color-body;
+  padding-top: 40px;
+  padding-bottom: 50px;
+
+  @media #{$brk-desktop} {
+    text-align: center;
+    padding-bottom: 0px;
+  }
+
+
+}
+
+section p {
+  line-height: 1.5;
+}
+
+.gallery {
+  @extend %centered;
+  @extend %clearfix;
+  margin: 0px 10px;
+
+  @media #{$brk-tablet} {
+    padding: 0 10px;
+  }
+
+  @media #{$brk-desktop} {
+    max-width: 1200px;
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    font-size: 1em;
+  }
+}
+
+/*  PORTFOLIO   */
+
+.portfolio {
+  @extend %centered;
+}
+
+.portfolio p {
+  font-weight: 300;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 15px;
+
+  @media #{$brk-tablet} {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+
+  @media #{$brk-desktop} {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
+
+.portfolio h3 {
+  font-weight: 500;
+  font-size: 1.2em;
+  padding-top: 10px;
+}
+
+.portfolio h2 {
+  @include text(1.2em);
+  text-transform: uppercase;
+  padding-bottom: 25px;
+}
+
+
+.gallery img {
+  width: 100%;
+  padding: 0 15px;
+  max-width: 440px;
+
+  @media #{$brk-desktop} {
+    padding: 0 5px;
+  }
+}
+
+.item {
+  @media #{$brk-tablet} {
+    float: left;
+    width: 50%;
+    height: 400px;
+  }
+
+  @media #{$brk-desktop} {
+    width: 33.33%;
+  }
+}
+
+/*  SKILLS   */
+
+.skills h2 {
+  @include text(1.2em);
+  @extend %centered;
+  text-transform: uppercase;
+  padding-bottom: 25px;
+}
+
+

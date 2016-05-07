@@ -1,0 +1,61 @@
+/* ABOUT  */
+
+.about {
+	@extend %clearfix;
+	@extend %centered;
+
+	@media #{$brk-tablet} {
+		margin-top: 50px;
+	    margin-bottom: 70px;
+	    display: block;
+	}
+
+	@media #{$brk-desktop} {
+		padding-top: 30px;
+	    margin-top: 50px;
+	    display: block;
+	}
+}
+
+.about p {
+	margin-top: 10px;
+	font-weight: 300;
+	line-height: 1.75;
+	padding: 5px 20px 20px 20px;
+	color: $grey;
+
+	@media #{$brk-tablet} {
+		font-size: 1.15em;
+	    padding-top: 0px;
+	    padding-left: 30px;
+	    text-align: left;
+	}
+
+	@media #{$brk-desktop} {
+		font-size: 1.3em;
+	    margin-left: 15px;
+	    line-height: 1.5;
+	    margin-top: -5px;
+	    max-width: 600px;
+	}
+}
+
+
+.about img {
+	height: 150px;
+	margin: 0px auto;
+
+	@media #{$brk-tablet} {
+		height: 200px;
+	    margin-right: 35px;
+	    margin-left: 10px;
+	    float: right;
+	}
+
+	@media #{$brk-desktop} {
+		height: 225px;
+	    margin-right: 50px;
+	    margin-left: 25px;
+	    float: right;
+	}
+}
