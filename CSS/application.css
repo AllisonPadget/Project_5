@@ -194,7 +194,7 @@ section {
   margin-right: 15px; }
 
 /* CENTERED TEXT */
-body, .about, .gallery, .portfolio, .skills h2, .contact h1, .contact p, .contact-info {
+body, .about, .gallery, .portfolio, .skills h2, .contact h1, .contact p, .contact-info, .header {
   text-align: center; }
 
 /* CLEARFIX */
@@ -256,5 +256,104 @@ body, .about, .gallery, .portfolio, .skills h2, .contact h1, .contact p, .contac
 @media (min-width: 1024px) {
   .flex-nav {
     float: right; } }
+
+/***********************
+	 Header and Footer Imports
+***********************/
+/* HEADER */
+@media (min-width: 1024px) {
+  .header {
+    float: left;
+    padding-left: 50px; } }
+
+.header h1 {
+  font-size: 1.5em;
+  margin: 20px 0px 10px 0px; }
+
+/*  FOOTER   */
+.footer {
+  border-top: 1px solid #E7E7E7;
+  margin-left: 20px;
+  margin-right: 20px; }
+
+.footer ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0; }
+
+.student-name {
+  font-weight: bold;
+  float: left;
+  padding: 30px 0px; }
+  @media (min-width: 768px) {
+    .student-name {
+      font-size: 0.8em; } }
+  @media (min-width: 1024px) {
+    .student-name {
+      font-size: 0.8em; } }
+
+@media (min-width: 768px) {
+  .nav {
+    margin: 0;
+    padding: 0px;
+    text-transform: uppercase;
+    font-size: 0.8em; } }
+@media (min-width: 1024px) {
+  .nav {
+    margin: 0;
+    padding: 0px;
+    text-transform: uppercase;
+    font-size: 0.8em; } }
+
+@media (min-width: 768px) {
+  .nav a {
+    font-weight: 700;
+    padding: 10px;
+    color: #4A4A4A; } }
+@media (min-width: 1024px) {
+  .nav a {
+    font-weight: 700;
+    padding: 10px;
+    color: #4A4A4A; } }
+
+@media (min-width: 768px) {
+  .footer-nav .nav li {
+    background: #D8D8D8; } }
+@media (min-width: 1024px) {
+  .footer-nav .nav li {
+    background: #D8D8D8; } }
+
+/*** BACK TO TOP ***/
+.top {
+  font-size: 12px;
+  text-transform: uppercase;
+  float: right;
+  padding: 30px 0px; }
+  @media (min-width: 768px) {
+    .top {
+      display: none; } }
+  @media (min-width: 1024px) {
+    .top {
+      display: none; } }
+
+.top a {
+  font-weight: bold; }
+
+/** do not display footer nav in mobile **/
+.footer-nav {
+  display: none; }
+  @media (min-width: 768px) {
+    .footer-nav {
+      display: block;
+      float: right;
+      margin-right: 20px;
+      padding: 30px 0px; } }
+  @media (min-width: 1024px) {
+    .footer-nav {
+      display: block;
+      float: right;
+      margin-right: 10px;
+      padding-top: 30px;
+      padding-bottom: 30px; } }
 
 /*# sourceMappingURL=application.css.map */
