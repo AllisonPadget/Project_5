@@ -9,30 +9,28 @@ section {
 
   @media #{$brk-desktop} {
     text-align: center;
-    padding-bottom: 0px;
+    padding-bottom: $padding;
   }
-
-
+  p {
+    line-height: 1.5;
+  }
 }
 
-section p {
-  line-height: 1.5;
-}
 
 .gallery {
   @extend %centered;
   @extend %clearfix;
-  margin: 0px 10px;
+  margin: $margin 10px;
 
   @media #{$brk-tablet} {
-    padding: 0 10px;
+    padding: $padding 10px;
   }
 
   @media #{$brk-desktop} {
     max-width: 1200px;
     display: inline-block;
     width: 100%;
-    margin: 0;
+    margin: $margin;
     font-size: 1em;
   }
 }
@@ -41,22 +39,22 @@ section p {
 
 .portfolio {
   @extend %centered;
-}
 
-.portfolio p {
-  font-weight: 300;
-  padding-right: 10px;
-  padding-left: 10px;
-  padding-bottom: 15px;
+    p {
+    font-weight: 300;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 15px;
 
-  @media #{$brk-tablet} {
-    padding-right: 40px;
-    padding-left: 40px;
-  }
+    @media #{$brk-tablet} {
+      padding-right: 40px;
+      padding-left: 40px;
+    }
 
-  @media #{$brk-desktop} {
-    padding-right: 30px;
-    padding-left: 30px;
+    @media #{$brk-desktop} {
+      padding-right: 30px;
+      padding-left: 30px;
+    }
   }
 }
 
@@ -75,11 +73,11 @@ section p {
 
 .gallery img {
   width: 100%;
-  padding: 0 15px;
+  padding: $padding 15px;
   max-width: 440px;
 
   @media #{$brk-desktop} {
-    padding: 0 5px;
+    padding: $padding 5px;
   }
 }
 

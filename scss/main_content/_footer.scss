@@ -8,14 +8,14 @@
 
 .footer ul {
   list-style: none;
-  padding: 0;
-  margin: 0;
+  padding: $padding;
+  margin: $margin;
 }
 
 .student-name {
   font-weight: bold;
   float: left;
-  padding: 30px 0px;
+  padding: 30px $padding;
 
   @media #{$brk-tablet} {
     font-size: 0.8em;
@@ -28,15 +28,15 @@
 
 .nav {
   @media #{$brk-tablet} {
-    margin: 0;
-    padding: 0;
+    margin: $margin;
+    padding: $padding;
     text-transform: uppercase;
     font-size: 0.8em;
   }
 
   @media #{$brk-desktop} {
-    margin: 0;
-    padding: 0;
+    margin: $margin;
+    padding: $padding;
     text-transform: uppercase;
     font-size: 0.8em;
   }
@@ -56,15 +56,15 @@
   }
 }
 
-.footer-nav li {
-    @media #{$brk-tablet} {
-      background: $light-grey;
-    }
-
-    @media #{$brk-desktop} {
-      background: $light-grey;
-    }
+.footer-nav .nav li {
+  @media #{$brk-tablet} {
+    background: #D8D8D8;
   }
+
+  @media #{$brk-desktop} {
+    background: #D8D8D8;
+  }
+}
 
 /*** BACK TO TOP ***/
 
@@ -72,7 +72,7 @@
   @include text(12px);
   text-transform: uppercase;
   float: right;
-  padding: 30px 0px;
+  padding: 30px $padding;
 
   @media #{$brk-tablet} {
     display: none;
@@ -96,7 +96,7 @@
     display: block;
     float: right;
     margin-right: 20px;
-    padding: 30px 0;
+    padding: 30px $padding;
   }
 
   @media #{$brk-desktop} {

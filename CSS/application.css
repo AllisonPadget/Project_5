@@ -86,11 +86,11 @@ a {
     color: #4A4A4A; } }
 
 @media (min-width: 768px) {
-  .footer-nav li {
-    background: #D2D2D2; } }
+  .footer-nav .nav li {
+    background: #D8D8D8; } }
 @media (min-width: 1024px) {
-  .footer-nav li {
-    background: #D2D2D2; } }
+  .footer-nav .nav li {
+    background: #D8D8D8; } }
 
 /*** BACK TO TOP ***/
 .top {
@@ -182,9 +182,8 @@ section {
     section {
       text-align: center;
       padding-bottom: 0px; } }
-
-section p {
-  line-height: 1.5; }
+  section p {
+    line-height: 1.5; }
 
 .gallery {
   margin: 0px 10px; }
@@ -333,6 +332,16 @@ body, .header, .about, .gallery, .portfolio, .skills h2, .contact h1, .contact p
   list-style: none;
   margin: 10px 5px 30px 5px;
   padding: 5px; }
+  .nav li {
+    text-align: center;
+    background: #fff;
+    margin: 5px; }
+    @media (min-width: 768px) {
+      .nav li {
+        background: #fdf6f6; } }
+    @media (min-width: 1024px) {
+      .nav li {
+        background: #fdf6f6; } }
 
 @media (min-width: 768px) {
   .flex-nav {
@@ -341,16 +350,5 @@ body, .header, .about, .gallery, .portfolio, .skills h2, .contact h1, .contact p
 @media (min-width: 1024px) {
   .flex-nav {
     float: right; } }
-
-.nav li {
-  text-align: center;
-  background: #fff;
-  margin: 5px; }
-  @media (min-width: 768px) {
-    .nav li {
-      background: #fdf6f6; } }
-  @media (min-width: 1024px) {
-    .nav li {
-      background: #fdf6f6; } }
 
 /*# sourceMappingURL=application.css.map */

@@ -5,11 +5,11 @@
   @extend %clearfix;
 
   @media #{$brk-tablet} {
-    margin: 0;
-    padding: 0;
+    margin: $margin;
+    padding: $padding;
     font-size: 1.2em;
     text-align: center;
-    margin: 0 75px;
+    margin: $margin 75px;
   }
 }
 
@@ -28,14 +28,14 @@
   padding: 5px 10px;
 
   @media #{$brk-desktop} {
-    padding: 0 175px;
+    padding: $padding 175px;
   }
 }
 
 .contact-info {
   list-style: none;
   @extend %centered;
-  padding-left: 0px;
+  padding-left: $padding;
   padding-bottom: 50px;
   color: $grey;
 }

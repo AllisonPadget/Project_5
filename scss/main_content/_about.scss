@@ -26,7 +26,7 @@
 
 	@media #{$brk-tablet} {
 		font-size: 1.15em;
-	    padding-top: 0px;
+	    padding-top: $padding;
 	    padding-left: 30px;
 	    text-align: left;
 	}
@@ -43,7 +43,7 @@
 
 .about img {
 	height: 150px;
-	margin: 0px auto;
+	margin: $margin auto;
 
 	@media #{$brk-tablet} {
 		height: 200px;
