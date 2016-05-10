@@ -7,34 +7,34 @@
     text-align: center;
     text-transform: uppercase;
 
-    @media #{$brk-tablet} {
+    @include tablet {
       padding-top: 10px;
     }
 
-    @media #{$brk-desktop} {
+    @include desktop {
       padding-top: 25px;
       padding-right: 40px;
       margin-top: 25px;
     }
   }
 
-&-nav a {
+  &-nav a {
     display: block;
     text-decoration: none;
     color: $color-nav-default;
     font-weight: 700;
     padding: 10px;
 
-    @media #{$brk-tablet} {
+    @include tablet {
       display: inline;
     }
 
-    @media #{$brk-desktop} {
+    @include desktop {
       display: inline;
     }
   }
 
-&-nav a:hover {
+  &-nav a:hover {
     color: $color-nav-hover;
   }
 }
@@ -51,24 +51,24 @@
     background: $color-body;
     margin: 5px;
 
-    @media #{$brk-tablet} {
+    @include tablet {
       background: $linen-pink;
     }
 
 
-    @media #{$brk-desktop} {
+    @include desktop {
       background: $linen-pink;
     }
   }
 }
 
 .flex-nav {
-  @media #{$brk-tablet} {
+  @include tablet {
     display: inline-flex;
     justify-content: space-around;
   }
 
-  @media #{$brk-desktop} {
+  @include desktop {
     float: right;
   }
 }

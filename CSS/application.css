@@ -6,8 +6,10 @@
 ***********************/
 /* Descriptive color variables */
 /** Functional color variables **/
+/** margins and padding values **/
 /** FONT Stacks **/
 /** Media Query breakpoints **/
+/** media queries **/
 /** Text **/
 /* Global Layout Set-up */
 body {
@@ -27,104 +29,8 @@ a {
     text-decoration: underline; }
 
 /***********************
-	 Layout Imports
+	 Main Content Imports
 ***********************/
-/* HEADER */
-@media (min-width: 1024px) {
-  .header {
-    float: left;
-    padding-left: 50px; } }
-
-.header h1 {
-  font-size: 1.5em;
-  margin: 20px 0px 10px 0px; }
-
-/*  FOOTER   */
-.footer {
-  border-top: 1px solid #E7E7E7;
-  margin-left: 20px;
-  margin-right: 20px; }
-
-.footer ul {
-  list-style: none;
-  padding: 0;
-  margin: 0; }
-
-.student-name {
-  font-weight: bold;
-  float: left;
-  padding: 30px 0px; }
-  @media (min-width: 768px) {
-    .student-name {
-      font-size: 0.8em; } }
-  @media (min-width: 1024px) {
-    .student-name {
-      font-size: 0.8em; } }
-
-@media (min-width: 768px) {
-  .nav {
-    margin: 0;
-    padding: 0;
-    text-transform: uppercase;
-    font-size: 0.8em; } }
-@media (min-width: 1024px) {
-  .nav {
-    margin: 0;
-    padding: 0;
-    text-transform: uppercase;
-    font-size: 0.8em; } }
-
-@media (min-width: 768px) {
-  .nav a {
-    font-weight: 700;
-    padding: 10px;
-    color: #4A4A4A; } }
-@media (min-width: 1024px) {
-  .nav a {
-    font-weight: 700;
-    padding: 10px;
-    color: #4A4A4A; } }
-
-@media (min-width: 768px) {
-  .footer-nav .nav li {
-    background: #D8D8D8; } }
-@media (min-width: 1024px) {
-  .footer-nav .nav li {
-    background: #D8D8D8; } }
-
-/*** BACK TO TOP ***/
-.top {
-  font-size: 12px;
-  text-transform: uppercase;
-  float: right;
-  padding: 30px 0px; }
-  @media (min-width: 768px) {
-    .top {
-      display: none; } }
-  @media (min-width: 1024px) {
-    .top {
-      display: none; } }
-
-.top a {
-  font-weight: bold; }
-
-/** do not display footer nav in mobile **/
-.footer-nav {
-  display: none; }
-  @media (min-width: 768px) {
-    .footer-nav {
-      display: block;
-      float: right;
-      margin-right: 20px;
-      padding: 30px 0; } }
-  @media (min-width: 1024px) {
-    .footer-nav {
-      display: block;
-      float: right;
-      margin-right: 10px;
-      padding-top: 30px;
-      padding-bottom: 30px; } }
-
 /* ABOUT  */
 @media (min-width: 768px) {
   .about {
@@ -159,7 +65,7 @@ a {
 
 .about img {
   height: 150px;
-  margin: 0px auto; }
+  margin: 0 auto; }
   @media (min-width: 768px) {
     .about img {
       height: 200px;
@@ -186,10 +92,10 @@ section {
     line-height: 1.5; }
 
 .gallery {
-  margin: 0px 10px; }
+  margin: 0 10px; }
   @media (min-width: 768px) {
     .gallery {
-      padding: 0 10px; } }
+      padding: 0px 10px; } }
   @media (min-width: 1024px) {
     .gallery {
       max-width: 1200px;
@@ -225,11 +131,11 @@ section {
 
 .gallery img {
   width: 100%;
-  padding: 0 15px;
+  padding: 0px 15px;
   max-width: 440px; }
   @media (min-width: 1024px) {
     .gallery img {
-      padding: 0 5px; } }
+      padding: 0px 5px; } }
 
 @media (min-width: 768px) {
   .item {
@@ -250,7 +156,7 @@ section {
 @media (min-width: 768px) {
   .contact {
     margin: 0;
-    padding: 0;
+    padding: 0px;
     font-size: 1.2em;
     text-align: center;
     margin: 0 75px; } }
@@ -267,7 +173,7 @@ section {
   padding: 5px 10px; }
   @media (min-width: 1024px) {
     .contact p {
-      padding: 0 175px; } }
+      padding: 0px 175px; } }
 
 .contact-info {
   list-style: none;
@@ -288,7 +194,7 @@ section {
   margin-right: 15px; }
 
 /* CENTERED TEXT */
-body, .header, .about, .gallery, .portfolio, .skills h2, .contact h1, .contact p, .contact-info {
+body, .about, .gallery, .portfolio, .skills h2, .contact h1, .contact p, .contact-info {
   text-align: center; }
 
 /* CLEARFIX */
