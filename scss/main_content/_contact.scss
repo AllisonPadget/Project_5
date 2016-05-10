@@ -4,7 +4,7 @@
 .contact {
   @extend %clearfix;
 
-  @media #{$brk-tablet} {
+  @include tablet {
     margin: $margin;
     padding: $padding;
     font-size: 1.2em;
@@ -27,7 +27,7 @@
   color: $grey;
   padding: 5px 10px;
 
-  @media #{$brk-desktop} {
+  @include desktop {
     padding: $padding 175px;
   }
 }

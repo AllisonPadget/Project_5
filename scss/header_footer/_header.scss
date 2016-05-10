@@ -4,7 +4,7 @@
 .header {
   @extend %centered;
 
-  @media #{$brk-desktop} {
+  @include desktop {
   	float: left;
     padding-left: 50px;
   }

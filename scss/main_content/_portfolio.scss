@@ -7,7 +7,7 @@ section {
   padding-top: 40px;
   padding-bottom: 50px;
 
-  @media #{$brk-desktop} {
+  @include desktop {
     text-align: center;
     padding-bottom: $padding;
   }
@@ -22,11 +22,11 @@ section {
   @extend %clearfix;
   margin: $margin 10px;
 
-  @media #{$brk-tablet} {
+  @include tablet {
     padding: $padding 10px;
   }
 
-  @media #{$brk-desktop} {
+  @include desktop {
     max-width: 1200px;
     display: inline-block;
     width: 100%;
@@ -46,12 +46,12 @@ section {
     padding-left: 10px;
     padding-bottom: 15px;
 
-    @media #{$brk-tablet} {
+    @include tablet {
       padding-right: 40px;
       padding-left: 40px;
     }
 
-    @media #{$brk-desktop} {
+    @include desktop {
       padding-right: 30px;
       padding-left: 30px;
     }
@@ -76,19 +76,19 @@ section {
   padding: $padding 15px;
   max-width: 440px;
 
-  @media #{$brk-desktop} {
+  @include desktop {
     padding: $padding 5px;
   }
 }
 
 .item {
-  @media #{$brk-tablet} {
+  @include tablet {
     float: left;
     width: 50%;
     height: 400px;
   }
 
-  @media #{$brk-desktop} {
+  @include desktop {
     width: 33.33%;
   }
 }

@@ -27,7 +27,6 @@ $color-body         : $white;
 /** margins and padding values **/
 
 $padding: 0px;
-
 $margin: 0;
 
 /** FONT Stacks **/
@@ -38,5 +37,5 @@ $stack-open-sans	: "Open Sans", $stack-sans-serif;
 
 /** Media Query breakpoints **/
 
-$brk-tablet		: '(min-width: 768px)';
-$brk-desktop	: '(min-width: 1024px)';
+$brk-tablet		: 768px;
+$brk-desktop	: 1024px;

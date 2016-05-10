@@ -4,13 +4,13 @@
 	@extend %clearfix;
 	@extend %centered;
 
-	@media #{$brk-tablet} {
+	@include tablet {
 		margin-top: 50px;
 	    margin-bottom: 70px;
 	    display: block;
 	}
 
-	@media #{$brk-desktop} {
+	@include desktop {
 		padding-top: 30px;
 	    margin-top: 50px;
 	    display: block;
@@ -24,14 +24,14 @@
 	padding: 5px 20px 20px 20px;
 	color: $grey;
 
-	@media #{$brk-tablet} {
+	@include tablet {
 		font-size: 1.15em;
 	    padding-top: $padding;
 	    padding-left: 30px;
 	    text-align: left;
 	}
 
-	@media #{$brk-desktop} {
+	@include desktop {
 		font-size: 1.3em;
 	    margin-left: 15px;
 	    line-height: 1.5;
@@ -45,14 +45,14 @@
 	height: 150px;
 	margin: $margin auto;
 
-	@media #{$brk-tablet} {
+	@include tablet {
 		height: 200px;
 	    margin-right: 35px;
 	    margin-left: 10px;
 	    float: right;
 	}
 
-	@media #{$brk-desktop} {
+	@include desktop {
 		height: 225px;
 	    margin-right: 50px;
 	    margin-left: 25px;

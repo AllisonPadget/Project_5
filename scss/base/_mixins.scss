@@ -1,3 +1,18 @@
+/** media queries **/
+@mixin tablet {
+	@media (min-width: $brk-tablet) {
+		@content;
+	}
+}
+
+@mixin desktop {
+	@media (min-width: $brk-desktop) {
+		@content;
+	}
+}
+
+
+
 /** Text **/
 
 @mixin text($size, $l-height: null, $weight: null, $color: null) {
@@ -6,3 +21,4 @@
 	font-weight: $weight;
 	color: $color;
 }
+

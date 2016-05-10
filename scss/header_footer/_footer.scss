@@ -17,24 +17,24 @@
   float: left;
   padding: 30px $padding;
 
-  @media #{$brk-tablet} {
+  @include tablet {
     font-size: 0.8em;
   }
 
-  @media #{$brk-desktop} {
+  @include desktop {
     font-size: 0.8em;
   }
 }
 
 .nav {
-  @media #{$brk-tablet} {
+  @include tablet {
     margin: $margin;
     padding: $padding;
     text-transform: uppercase;
     font-size: 0.8em;
   }
 
-  @media #{$brk-desktop} {
+  @include desktop {
     margin: $margin;
     padding: $padding;
     text-transform: uppercase;
@@ -43,13 +43,13 @@
 }
 
 .nav a {
-  @media #{$brk-tablet} {
+  @include tablet {
     font-weight: 700;
     padding: 10px;
     color: $tundora-grey;
   }
 
-  @media #{$brk-desktop} {
+  @include desktop {
     font-weight: 700;
     padding: 10px;
     color: $tundora-grey;
@@ -57,11 +57,11 @@
 }
 
 .footer-nav .nav li {
-  @media #{$brk-tablet} {
+  @include tablet {
     background: #D8D8D8;
   }
 
-  @media #{$brk-desktop} {
+  @include desktop {
     background: #D8D8D8;
   }
 }
@@ -74,11 +74,11 @@
   float: right;
   padding: 30px $padding;
 
-  @media #{$brk-tablet} {
+  @include tablet {
     display: none;
   }
   
-  @media #{$brk-desktop} {
+  @include desktop {
     display: none;
   }
 
@@ -92,14 +92,14 @@
 .footer-nav {
   display: none;
 
-  @media #{$brk-tablet} {
+  @include tablet {
     display: block;
     float: right;
     margin-right: 20px;
     padding: 30px $padding;
   }
 
-  @media #{$brk-desktop} {
+  @include desktop {
     display: block;
     float: right;
     margin-right: 10px;
