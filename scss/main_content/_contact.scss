@@ -7,14 +7,14 @@
   @include tablet {
     margin: $margin;
     padding: $padding;
-    font-size: 1.2em;
+    font-size: $sec_fontsize;
     text-align: center;
     margin: $margin 75px;
   }
 }
 
 .contact h1 {
-  @include text(1em);
+  @include text($ter_fontsize);
   @extend %centered;
   text-transform: uppercase;
   padding-top: 50px;

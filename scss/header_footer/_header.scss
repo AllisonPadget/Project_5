@@ -11,6 +11,6 @@
 }
 
 .header h1 {
-	@include text(1.5em);
+	@include text($header_size);
 	margin: 20px 0px 10px 0px;
 }

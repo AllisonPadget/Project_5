@@ -31,7 +31,7 @@ section {
     display: inline-block;
     width: 100%;
     margin: $margin;
-    font-size: 1em;
+    font-size: $ter_fontsize;
   }
 }
 
@@ -60,12 +60,12 @@ section {
 
 .portfolio h3 {
   font-weight: 500;
-  font-size: 1.2em;
+  font-size: $sec_fontsize;
   padding-top: 10px;
 }
 
 .portfolio h2 {
-  @include text(1.2em);
+  @include text($sec_fontsize);
   text-transform: uppercase;
   padding-bottom: 25px;
 }
@@ -96,7 +96,7 @@ section {
 /*  SKILLS   */
 
 .skills h2 {
-  @include text(1.2em);
+  @include text($sec_fontsize);
   @extend %centered;
   text-transform: uppercase;
   padding-bottom: 25px;
