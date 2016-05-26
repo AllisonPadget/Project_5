@@ -5,3 +5,5 @@ CSS to Sass
 
 
 Refactored the stylesheet from the "Responsive Layout" project using SCSS partials, variables, extends, and mixins.
+
+Passed with "Exceeds Expectations" grade.
